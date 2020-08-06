@@ -1,6 +1,20 @@
 nav{
     margin: 0 auto;
-    background-color: #FF9500;
+    background-color: #99715f;
     padding: 0 20px 20px 20px;
     box-shadow: inset;
   }
+footer
+{
+    margin: 0 auto;
+    background-color: #99715f;
+    padding: 0 20px 20px 20px;
+    box-shadow: inset;
+
+} 
+h1, h2{
+    color: #99715f;
+}
+a{
+    color: #99715f; 
+}
