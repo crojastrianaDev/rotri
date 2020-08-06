@@ -1,2 +1,2 @@
 # rotri
-Aplicación web de la reposteria Rotri
+Web de una reposteria, con ayuda de Materialize
