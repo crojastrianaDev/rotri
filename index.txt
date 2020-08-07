@@ -1,0 +1,150 @@
+ <!--Navegador-->
+    <nav class="brand-logo" role="navigation">
+        <div class="row">
+            <div class="col s12">
+                <div class="nav-wrapper container">
+                  <a id="logo-container" href="#Inicio" class="brand-logo">
+                        <img src="img/RotriLogoS-08.png" alt="Rotri"  style="width:66px;height:66px; background-color: #fbdede;">
+                    </a> 
+                    <ul class="right hide-on-med-and-down"cake shop>
+                        <li><a href="#Inicio" class="waves-effect waves-teal btn-fla">
+                            <i class="material-icons left">flag</i>Inico</a></li> 
+                        <li><a href="#Pro" class="waves-effect waves-teal btn-fla">
+                            <i class="material-icons left">cake</i>Productos</a></li> 
+                        <li><a href="#Nosotros" class="waves-effect waves-teal btn-fla">
+                            <i class="material-icons left">group</i>Nosotros</a></li> 
+                        <li><a href="#Contactos" class="waves-effect waves-teal btn-fla">
+                            <i class="material-icons left">contacts</i>Contactos</a></li> 
+                     </ul>
+
+                     <!--NAVEGADOR MOVIL-->
+                     <ul id="nav-mobile" class="sidenav" style="background-color: #c95f32;">
+                        <li>
+                            <a href="#Inicio">
+                            <img src="img/RotriLogoS-08.png" alt="Rotri"  style="width:50px;height:50px; background-color: #fbdede;">
+                            </a>
+                        </li>
+                        <li><a href="#Inicio" class="waves-effect waves-teal btn-fla">
+                            <i class="material-icons left">flag</i>Inico</a></li> 
+                        <li><a href="#Pro" class="waves-effect waves-teal btn-fla">
+                            <i class="material-icons left">cake</i>Productos</a></li> 
+                        <li><a href="#Nosotros" class="waves-effect waves-teal btn-fla">
+                            <i class="material-icons left">group</i>Nosotros</a></li> 
+                        <li><a href="#Contactos" class="waves-effect waves-teal btn-fla">
+                            <i class="material-icons left">contacts</i>Contactos</a></li>  
+                       </ul>
+                       <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                           <i class="material-icons">apps</i></a>
+                </div>
+            </div> 
+            <!--Inicio-->
+           <div class="row">
+            <div class="col s12 center" style="background-color: #fbdede;">
+               <h1 id="Inicio">
+               <b> Rotri Reposteria Pitalito</b>
+               <p class="flow-text">Endulza tu vida y comparte felicidad</p>
+            </h1>
+            <div class="center">
+                <a href="#Inicio">
+                    <img src="img/RotriLogoS-08.png" alt="Rotri"  style="width:200px;height:200px; background-color: #fbdede;">
+                </a>
+            </div>
+           </div>
+  </div> 
+        </div>
+    </nav>
+    <!--Carusel de productos-->
+    <div class="row" style="background-color: #c95f32;">
+        <div class="col s12 center">
+            <h4>
+                <b>Si quieres comprar solo da click en la imagen</b>
+            </h4>
+        </div>
+        <div class="carousel" id="Pro">
+            <a class="carousel-item" href="https://wa.me/573214544853?text=Quiero%20Esta%20Caja%20De-4-%20Cupcakes">
+                <img src="img/productos/índice.jpg"><h5><B>Caja 4 Cupcakes 1.0000 COP</B></h5></a>
+            <a class="carousel-item" href="#two!">
+                <img src="https://lorempixel.com/250/250/nature/2"></a>
+            <a class="carousel-item" href="#three!">
+                <img src="https://lorempixel.com/250/250/nature/3"></a>
+            <a class="carousel-item" href="#four!">
+                <img src="https://lorempixel.com/250/250/nature/4"></a>
+            <a class="carousel-item" href="#five!">
+                <img src="https://lorempixel.com/250/250/nature/5"></a>
+        </div>
+        <!--Sobre nosotros-->
+        <div style="background-color: #fbdede;" id="Nosotros">
+            <h2 class="center"><b>Sobre nosotros</b></h2>
+           <div class="container">
+               <div class="section">
+                    <!--Carta sobre los emprendedores-->
+            <div class="row">
+                <div class="col s6 m6">
+                <div class="card">
+                    <div class="card-image">
+                    <img src="img/RotriLogoS-08.png">
+                    <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                    <p>Sin duda los mejores.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col s6 m6">
+                    <div class="card">
+                        <div class="card-image">
+                        <img src="img/RotriLogoS-08.png">
+                        <span class="card-title">Hola</span>
+                        </div>
+                        <div class="card-content">
+                        <p>Somos los mejores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+           </div>  
+        </div>
+    </div>
+    <!--Botón whatsapp-->
+    <div class="fixed-action-btn">
+        <a href="https://wa.me/573214544853?text=Me%20interesa%20el%20producto%20que%20estás%20vendiendo" class="btn-floating btn-large pulse" 
+        style="background-color: #fbdede;">
+        <i class="large material-icons"><img src="img/wh.png" alt="Wh"></i> <!--Aqui mi canaasto shopping_basket-->
+        </a>
+        <ul>
+        </ul>
+    </div>
+    <!--Sección footer-->
+    <footer class="page-footer" style="background-color: #c95f32;">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text" id="Contactos">Contactos</h5>
+              <p class="grey-text text-lighten-4">Si quieres degustar los mejores productos de Reposteria
+                  de la ciudad no dudes en contactarnos a nuestras redes o si gustas
+                  llamanos +57 3214544853.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">            
+              <h5 class="white-text">Links</h5>
+              <ul> 
+                <a class="btn-floating pulse" href="https://www.instagram.com/rotri_reposteria/"
+                style="background-color: #fbdede;">
+                    <i class="material-icons"><img src="img/in.png" alt="IN"></i></a>
+                <a class="btn-floating pulse" href="https://www.facebook.com/RotriReposteria/"
+                style="background-color: #fbdede;">
+                    <i class="material-icons"><img src="img/fb.png" alt="FB"></i></a>
+                <a class="btn-floating pulse" href="https://wa.me/573214544853?text=Me%20interesa%20el%20producto%20que%20estás%20vendiendo"
+                style="background-color: #fbdede;">
+                    <i class="material-icons"><img src="img/wh.png" alt="Wh"></i></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Todos los derechos reservados
+          <a class="grey-text text-lighten-4 right" href="#!"></a>
+          </div>
+        </div>
+      </footer>
