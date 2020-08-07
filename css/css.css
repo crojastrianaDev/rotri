@@ -1,20 +1,25 @@
 nav{
-    margin: 0 auto;
-    background-color: #99715f;
+    margin: auto;
+    background-color: #c95f32;
     padding: 0 20px 20px 20px;
     box-shadow: inset;
   }
 footer
 {
     margin: 0 auto;
-    background-color: #99715f;
+    background-color: #c95f32;
     padding: 0 20px 20px 20px;
     box-shadow: inset;
 
-} 
-h1, h2{
-    color: #99715f;
 }
-a{
-    color: #99715f; 
+p, span, a, h1, h2{
+    color: #c95f32;
+}
+h5{
+    color: #fbdede;
+    font-size: 15px;
+}
+h4{
+    color: #fbdede;
+    font-size: 25px;
 }
