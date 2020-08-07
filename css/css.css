@@ -12,8 +12,12 @@ footer
     box-shadow: inset;
 
 }
-p, span, a, h1, h2{
+p, span, a, h2{
     color: #c95f32;
+}
+h1{
+    color: #c95f32;
+    font-size: 36px;
 }
 h5{
     color: #fbdede;
