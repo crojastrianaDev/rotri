@@ -3,7 +3,7 @@
       
       $('.sidenav').sidenav();
       $('.parallax').parallax();
-      $('.carousel').carousel();
+      $('.sidenav').open();
   
     }); // end of document ready
     
