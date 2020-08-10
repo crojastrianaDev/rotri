@@ -12,8 +12,11 @@ footer
     box-shadow: inset;
 
 }
-p, span, a, h2{
+p, a, h2{
     color: #c95f32;
+}
+span{
+    color: #fbdede;
 }
 h1{
     color: #c95f32;
