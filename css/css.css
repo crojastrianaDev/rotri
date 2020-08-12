@@ -18,7 +18,7 @@ footer
 }
 p{
     color: #c95f32;
-    font-size: 13px; 
+    font-size: 14px; 
 }
 span{
     color: #fbdede;
@@ -35,7 +35,16 @@ h4{
     color: #fbdede;
     font-size: 20px;
 }
-
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('img/45.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
 .sidenav{
    width: 200px;
 }
