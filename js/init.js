@@ -1,22 +1,27 @@
 (function($){
     $(function(){
-      
-      $('.sidenav').sidenav();
       $('.parallax').parallax();
       $('.sidenav').open();
-  
     }); // end of document ready
-    
+    $(function(){
+      $('.sidenav').sidenav()
+    })
     $('.carousel.carousel-slider').carousel({
       fullWidth: true
     });
-
+    
     $('.slider').slider();
-    $('.tabs').tabs();
+    $('.tabs').tabs();    
 
   })(jQuery); // end of jQuery name space
   $(document).ready(function(){
     $('select').formSelect();
   });
+ 
+ 
+  
+ 
+
+  
   
   

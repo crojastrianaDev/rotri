@@ -3,6 +3,7 @@ nav{
     background-color: #c95f32;
     padding: 0 20px 20px 20px;
     box-shadow: inset;
+    
   }
 footer
 {
@@ -32,5 +33,18 @@ h5{
 }
 h4{
     color: #fbdede;
-    font-size: 22px;
+    font-size: 20px;
 }
+.progress{
+    margin-top: 350px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+.sidenav{
+   width: 200px;
+}
+blockquote{
+    color: #c95f32;
+}
+
+
