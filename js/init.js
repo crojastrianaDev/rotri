@@ -11,7 +11,8 @@
     });
     
     $('.slider').slider();
-    $('.tabs').tabs();    
+    $('.tabs').tabs(); 
+       
 
   })(jQuery); // end of jQuery name space
   $(document).ready(function(){
