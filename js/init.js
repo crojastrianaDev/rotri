@@ -1,11 +1,11 @@
 (function($){
     $(function(){
+      
+      $('.sidenav').sidenav();
       $('.parallax').parallax();
       $('.sidenav').open();
     }); // end of document ready
-    $(function(){
-      $('.sidenav').sidenav()
-    })
+    
     $('.carousel.carousel-slider').carousel({
       fullWidth: true
     });
