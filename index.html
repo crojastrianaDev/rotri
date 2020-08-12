@@ -13,6 +13,7 @@
     <link  rel="icon"   href="img/favicon.png" type="image/png" style="background-color: #fbdede;"/>
 </head>
 <body>
+    <div class="loader"></div>
     <nav class="" role="navigation">
         <div class="nav-wrapper container">  
             <!--Navegador escritorio-->
@@ -197,16 +198,10 @@
         </div>
       </footer>
    
-    
-    
-    
-      
-
-   
-
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/init.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -216,7 +211,11 @@
               onCycleTo: true
             });
           });
-          
     </script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".loader").fadeOut("slow");
+        });
+        </script>
 </body>
 </html>
