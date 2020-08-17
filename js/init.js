@@ -7,17 +7,20 @@
       $('.tabs').tabs(); 
       $('.materialboxed').materialbox();
       
-    }); // end of document ready
-   /* $('.carousel.carousel-slider').carousel({
-      fullWidth: true
-    });*/
-    //$('.slider').slider(); $('.tabs').tabs(); 
-    
+    });
        
-  })(jQuery); // end of jQuery name space
+  })(jQuery); 
   $(document).ready(function(){
     $('select').formSelect();
   });
+  // MODAL AL CARGAR
+  document.addEventListener('DOMContentLoaded', function () {
+    var Modalelem = document.querySelector('.modal');
+    var instance = M.Modal.init(Modalelem);
+    instance.open();
+});
+                 
+
  
  
   
