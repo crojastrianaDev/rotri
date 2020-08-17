@@ -38,11 +38,12 @@ h4,h6{
 .sidenav{
    width: 200px;
 }
-blockquote{
+blockquote, #Modal{
     color: #c95f32;
 }
-.modal, #Modal{
+.modal{
     background-color: #c95f32;
+    width: min-content;   
 }
 #btnModal{
     background-color: #fbdede;
