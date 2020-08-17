@@ -41,6 +41,14 @@ h4,h6{
 blockquote{
     color: #c95f32;
 }
+.modal, #Modal{
+    background-color: #c95f32;
+}
+#btnModal{
+    background-color: #fbdede;
+    color: #c95f32;
+    font-size: 15px;
+}
 
 
 
