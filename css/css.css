@@ -50,6 +50,12 @@ blockquote, #Modal{
     color: #c95f32;
     font-size: 15px;
 }
+#drop{
+    color: #c95f32;
+}
+.dropdown{
+    background-color: #fbdede;
+}
 
 
 
