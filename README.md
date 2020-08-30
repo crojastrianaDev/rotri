@@ -1,2 +1,3 @@
 # rotri
-Web de una reposteria, con ayuda de Materialize
+Aplicación web de la reposteria Rotri.
+framework Materializecss
