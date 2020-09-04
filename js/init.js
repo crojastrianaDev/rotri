@@ -6,6 +6,7 @@
       $('.sidenav').open();
       $('.tabs').tabs(); 
       $('.materialboxed').materialbox();
+      $(".dropdown-trigger").dropdown();
       
       
     });
@@ -13,7 +14,7 @@
   })(jQuery); 
   $(document).ready(function(){
     $('select').formSelect();
-    $(".dropdown-trigger").dropdown();
+    
   });
   // MODAL AL CARGAR
   document.addEventListener('DOMContentLoaded', function () {
