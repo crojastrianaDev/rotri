@@ -22,6 +22,7 @@
     <meta name="tewitter:url" content="https://rotrireposteria.com/">
 </head>
 <body>
+    <!--Modal de promociones-->
     <div id="PROMO" class="modal">
         <div class="modal-content">
           <div class="row">
@@ -37,8 +38,8 @@
           </div>
         </div>
     </div>
-     <!-- Dropdown Structure -->
-    <ul id="dropdown1" class="dropdown-content dropdown">
+     <!-- Dropdown Structure Productos-->
+    <ul id="dropdown1" class="dropdown-content">
        <li><a href="#Pro" id="drop">Productos</a></li>
        <li class="divider"></li>
        <li><a href="#Es" id="drop">Especiales</a></li>
@@ -57,7 +58,7 @@
                 <!--<li><a href="#Pro" class="waves-effect waves-teal btn-fla">
                     <i class="material-icons left">cake</i>Productos</a></li>-->
                 <!-- Dropdown Trigger -->
-                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Productos<i class="material-icons right">arrow_drop_down</i><i class="material-icons left">
+                <li><a class="dropdown-trigger" href="#Pro" data-target="dropdown1">Productos<i class="material-icons right">arrow_drop_down</i><i class="material-icons left">
                 cake</i></a>
                </li> 
                 <li><a href="#Nosotros" class="waves-effect waves-teal btn-fla">
@@ -301,5 +302,15 @@
             });
           });
     </script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177269417-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-177269417-1');
+    </script>
+
 </body>
 </html>
