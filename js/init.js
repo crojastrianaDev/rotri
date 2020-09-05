@@ -8,7 +8,6 @@
       $('.materialboxed').materialbox();
       $(".dropdown-trigger").dropdown();
       
-      
     });
        
   })(jQuery); 
@@ -22,6 +21,7 @@
     var instance = M.Modal.init(Modalelem);
     instance.open();
 });
+
                  
 
  
