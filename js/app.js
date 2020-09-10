@@ -15,6 +15,16 @@
     $('select').formSelect();
     
   });
+
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      indicators: true,
+      //dist:-60,
+      numVisible: 6,
+      onCycleTo: true
+    });
+  });
+  
   // MODAL AL CARGAR
   document.addEventListener('DOMContentLoaded', function () {
     var Modalelem = document.querySelector('.modal');
