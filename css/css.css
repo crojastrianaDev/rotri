@@ -63,6 +63,37 @@ B{
 #especial{
     color: #c95f32;
 }
-
+#cUno, .navMov{
+    background-color: #c95f32;
+}
+#cDos{
+    background-color: #fbdede;
+}
+#navEscritorio{
+    color: #c95f32;
+    height: 63px;
+}
+#img404{
+    color: #fbdede; 
+    font-size: x-large;
+}
+#imgModalPromo{
+    width: 260px; 
+    height: 260px;
+}
+#logoNav{
+    width:65px;
+    height:65px; 
+    background-color: #fbdede;
+}
+#logoMov{
+    width:48px;
+    height:48px; 
+    background-color: #fbdede;
+}
+#imgPro{
+    width: 250px; 
+    height: 250px;
+}
 
 
