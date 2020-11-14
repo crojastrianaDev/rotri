@@ -127,7 +127,8 @@
                 <div class="carousel-item" id="imgPro" target="_blank">
                     <img src="img/productos/4Cupcakes.jpg"><h5><B>Caja 4 Cupcakes 13.000 COP</B></h5> 
                     <div class="row">
-                            <a class="waves-effect waves-light btn-small form">
+                        <!--modal-trigger href="#form-modal" -->
+                            <a class="waves-effect waves-light btn-small form " id="cup4" >
                                 Comprar
                             </a>
                     </div>
@@ -190,8 +191,8 @@
                 </div>
 
                 <div class="carousel-item" id="imgPro" target="_blank">
-                    <img src="img/productos/des.jpg"><h5><B>Torta Desnuda
-                         Choclate-casera-red velvet 38.000 COP</B></h5>
+                    <img src="img/productos/tortaSni.jpg"><h5><B>Torta casera de vainilla
+                         con Snickers, M&M 15.000 COP</B></h5>
                          <div class="row">
                             <a class="waves-effect waves-light btn-small form">
                                 Comprar
@@ -199,12 +200,13 @@
                         </div>
                 </div>
                 <div class="carousel-item" id="imgPro" target="_blank">
-                    <img src="img/productos/t"><h5><B>Caja 4 Cupcakes 13.000 COP</B></h5> 
-                    <div class="row">
+                    <img src="img/productos/desnuda.jpg"><h5><B>Torta Desnuda
+                         Chocolate-casera-red velvet 38.000 COP</B></h5>
+                         <div class="row">
                             <a class="waves-effect waves-light btn-small form">
                                 Comprar
                             </a>
-                    </div>
+                        </div>
                 </div>
             </div>
 
@@ -213,25 +215,27 @@
                 <div class="carousel-item" id="imgPro" target="_blank">
                     <img src="img/productos/saludable.jpg"><h5><B>Productos Especiales</B></h5>
                 </div>
+
                 <div class="carousel-item" id="imgPro" target="_blank">
-                <img src="img/productos/avena.jpg"><h5><B>Especial Saludable galletas de avena 12.000 COP</B></h5>
+                    <img src="img/productos/avena.jpg"><h5><B>Especial Saludable galletas de avena 12.000 COP</B></h5>
                 <div class="row">
                     <a class="waves-effect waves-light btn-small form">
                         Comprar
                     </a>
                 </div>
                 </div>
+
                 <div class="carousel-item" id="imgPro" target="_blank">
-                <img src="img/productos/niños.jpg"><h5><B>Kit especial para niños 18.000 COP</B></h5>
+                    <img src="img/productos/niños.jpg"><h5><B>Kit especial para niños 18.000 COP</B></h5>
                 <div class="row">
-                    <a class="waves-effect waves-light btn-small form"  target="_blank" 
-                    href="https://wa.me/573214544853?text=Quiero%20Cotizar%20Para%20mi%20%20Evento">
+                    <a class="waves-effect waves-light btn-small form" >
                         Comprar
                     </a>
                 </div>
                 </div>
+
                 <div class="carousel-item" id="imgPro" target="_blank">
-                <img src="img/productos/cupYGalletas.jpg"><h5><B>Caja 4 Cupcakes y 4 Galletas 19.000 COP</B></h5>
+                    <img src="img/productos/cupYGalletas.jpg"><h5><B>Caja 4 Cupcakes y 4 Galletas 19.000 COP</B></h5>
                 <div class="row">
                     <a class="waves-effect waves-light btn-small form">
                         Comprar
@@ -246,18 +250,21 @@
                     </a>
                 </div>
                 </div> -->
-                <div class="carousel-item" id="imgPro" target="_blank">
-                <img src="img/productos/cupEventos.jpg"><h5><B>Cupcakes Eventos Especiales</B></h5>
+                <div class="carousel-item" id="imgPro" >
+                    <img src="img/productos/cupEventos.jpg"><h5><B>Cupcakes Eventos Especiales</B></h5>
                 <div class="row">
-                    <a class="waves-effect waves-light btn-small form">
+                    <a class="waves-effect waves-light btn-small form" target="_blank" 
+                    href="https://wa.me/573214544853?text=Quiero%20Cotizar%20Para%20mi%20%20Evento">
                         Cotizar
                     </a>
                 </div>
                 </div>
+
               </div>
            </div>
         </div>
     </div> 
+
     <blockquote class="center">
         Pedidos con 1 día de anticipación <br> Domingos a Domingo <br> Horarios: 9am - 8pm <br>
 	    Costo del domicilio 2.000COP <br> Perimetro urbano
@@ -317,6 +324,38 @@
         <ul>
         </ul>
     </div> 
+
+
+    <!--FORM MODAL-->
+    <!-- <a class="waves-effect waves-light btn modal-trigger" href="#form-modal">Form Modal</a> -->
+    <!-- <div class="modal" id="form-modal">
+        <div class="modal-content">
+            <h4></h4>
+            <div class="row">
+                <form action="" class="col s12">
+                    <div class="row">
+                        <h6>Datos del comprador</h6>
+                        <div class="input-field col s6">
+                            <input placeholder="Nombre" id="first_name" type="text" class="validate">
+                            <label for="first_name">Nombre</label>
+                          </div>
+                          <div class="input-field col s6">
+                            <input id="phone" type="tel" class="validate" placeholder="Nombre" >
+                            <label for="phone">Telefono</label>
+                          </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="waves-effect waves-light btn modal-trigge">Cerrar</a>
+        </div>
+    </div> -->
+
+
+
+
+
      <!--Sección footer-->
      
      <footer class="page-footer" id="cUno">
@@ -360,6 +399,7 @@
 			  crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/form.js"></script>
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177269417-1"></script>

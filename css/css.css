@@ -102,5 +102,13 @@ B{
     color: #c95f32;
     font-weight: 700;
 }
+#form-modal{
+    width: 80%;
+    height: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
 
 
