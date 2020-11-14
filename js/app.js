@@ -5,7 +5,7 @@
     $(".tabs").tabs();
     $(".materialboxed").materialbox();
     $(".dropdown-trigger").dropdown();
-    $(".modal").modal();
+    // $(".modal").modal();
     $(".sidenav").open();
   });
 })(jQuery);
