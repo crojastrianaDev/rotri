@@ -128,7 +128,7 @@
                     <img src="img/productos/4Cupcakes.jpg"><h5><B>Caja 4 Cupcakes 13.000 COP</B></h5> 
                     <div class="row">
                         <!--modal-trigger href="#form-modal" -->
-                            <a class="waves-effect waves-light btn-small form">
+                            <a class="waves-effect waves-light btn-small form modal-trigger" href="#form-modal">
                                 Comprar
                             </a>
                     </div>
@@ -271,6 +271,132 @@
         Pedidos con 1 día de anticipación <br> Domingos a Domingo <br> Horarios: 9am - 8pm <br>
 	    Costo del domicilio 2.000COP <br> Perimetro urbano
     </blockquote>
+
+
+
+
+   
+  <!-- <a class="waves-effect waves-light btn modal-trigger" href="#form-modal">Modal</a> -->
+  <!-- Form MODAL -->
+  <div id="form-modal" class="modal">
+    <div class="modal-content">
+      <h4 class="black-text text-darken-2">Elegiste xxxx</h4>
+      <form action="">
+          <div class="row">
+              <form class="col s12" id="formWh">
+                  <h6 class="black-text text-darken-2 center">Datos del comprador</h6>
+                <div class="row">
+                    <div class="input-field col s6">
+                      <input placeholder="Nombre" id="firstName" type="text" class="validate black-text text-darken-2">
+                      <label for="firstName" class="black-text text-darken-2">Nombre</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="phone" type="tel" class="validate black-text text-darken-2" placeholder="Celular">
+                      <label for="phone" class="black-text text-darken-2">Celular</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <!-- <input placeholder="Fecha de entrega" id="date" type="text" class="validate black-text text-darken-2"> -->
+                      <input type="text" class="datepicker" id="date">
+                      <label for="date" class="black-text text-darken-2">Fecha de entrega</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="time" type="tel" class="validate black-text text-darken-2" placeholder="Hora de entrega">
+                      <label for="time" class="black-text text-darken-2">Hora de entrega</label>
+                    </div>
+                  </div>
+                  <h6 class="black-text text-darken-2 center">Datos de quie recibe</h6>
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input placeholder="Nombre" id="nameRecibe" type="text" class="validate black-text text-darken-2">
+                      <label for="nameRecibe" class="black-text text-darken-2">Nombre</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="phoneRecibe" type="tel" class="validate black-text text-darken-2" placeholder="Celular">
+                      <label for="pheneRecibe" class="black-text text-darken-2">Celular</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input placeholder="Dirección" id="address" type="text" class="validate black-text text-darken-2">
+                      <label for="address" class="black-text text-darken-2">Dirección</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="message" type="tel" class="validate black-text text-darken-2" placeholder="Mensaje para la tarjeta">
+                      <label for="message" class="black-text text-darken-2">Mensaje para la tarjeta</label>
+                    </div>
+                  </div>
+
+                  <div class="container">
+                    <div class="row">
+                        <div class="col s12">
+                            <p>
+                                <label>
+                                  <input name="group1" type="radio" checked />
+                                  <span>Red</span> Sin addiciones
+                                </label>
+                              </p>
+                              <div class="col s6">
+                                <img src="img/productos/cajaEspcial.jpg" alt="Globo" class="imgAdicional">
+                                <p>Globo <br> $5.000 cop</p>
+                                <p>
+                                    <label>
+                                      <input name="group1" type="radio" checked />
+                                      <span>Red</span>
+                                    </label>
+                                  </p>
+                              </div>
+                              <div class="col s6">
+                                <img src="img/productos/cajaEspcial.jpg" alt="Caja" class="imgAdicional">
+                                <p>Caja especial <br> $5.000 cop</p>
+                                <p>
+                                    <label>
+                                      <input name="group1" type="radio" />
+                                      <span>Yellow</span>
+                                    </label>
+                                  </p>
+                            </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="col s6">
+                                <img src="img/productos/cajaEspcial.jpg" alt="Tarjeta" class="imgAdicional">
+                                <p>Tarjeta + sobre <br> $5.000 cop</p>
+                                <p>
+                                    <label>
+                                      <input class="with-gap" name="group1" type="radio"  />
+                                      <span>Green</span>
+                                    </label>
+                                  </p>
+                            </div>
+                            <div class="col s6">
+                                <img src="img/productos/cajaEspcial.jpg" alt="Ramo" class="imgAdicional">
+                                <p>Ramo<br> $5.000 cop</p>
+                                <p>
+                                    <label>
+                                      <input class="with-gap" name="group1" type="radio"  />
+                                      <span>Green</span>
+                                    </label>
+                                  </p>
+                            </div>
+                        </div>
+                          </div>
+                        </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col s6 offset-s6">
+                        <button class="btn waves-effect waves-light" type="submit" id="submitForm" name="action">Enviar
+                            <i class="material-icons right">send</i>
+                          </button>
+                    </div>
+                  </div>
+              </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="modal-close waves-effect waves-green btn-flat">Salir</a>
+    </div>
+  </div>
     
     <!--Sobre nosotros-->
     <div class="section" id="cDos">

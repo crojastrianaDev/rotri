@@ -5,7 +5,7 @@
     $(".tabs").tabs();
     $(".materialboxed").materialbox();
     $(".dropdown-trigger").dropdown();
-    // $(".modal").modal();
+    $(".modal").modal();
     $(".sidenav").open();
   });
 })(jQuery);
@@ -23,8 +23,8 @@ $(document).ready(function () {
 });
 
 // MODAL AL CARGAR
-document.addEventListener("DOMContentLoaded", function () {
-  var Modalelem = document.querySelector(".modal");
-  var instance = M.Modal.init(Modalelem);
-  instance.open();
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//   var Modalelem = document.querySelector(".modal");
+//   var instance = M.Modal.init(Modalelem);
+//   instance.open();
+// });

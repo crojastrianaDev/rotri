@@ -43,7 +43,7 @@ blockquote, #Modal{
     color: #c95f32;
 }
 .modal{
-    background-color: #c95f32;
+    background-color: #fbdede;
     width: min-content;   
 }
 #btnModal{
@@ -110,5 +110,19 @@ B{
     margin-right: auto;
     margin-bottom: auto;
 }
+input, label{
+    font-weight: 600;
+}
+#submitForm{
+    border-radius: 6em;
+    background-color: #c95f32;
+    color: #fbdede;
+    font-weight: 700;
 
+}
+.imgAdicional{
+    width: 5em;
+    height: 5em;
+    border-radius: 2em;
+}
 
