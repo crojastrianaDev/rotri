@@ -30,6 +30,7 @@ h1{
 h5{
     color: #fbdede;
     font-size: 23px;
+    margin-top: 0%;
 }
 h4,h6{
     color: #fbdede;
@@ -57,7 +58,7 @@ blockquote, #Modal{
     background-color: #fbdede;
 }
 B{
-    font-size: medium;
+    font-size: small;
  
 }
 #especial{
@@ -94,6 +95,12 @@ B{
 #imgPro{
     width: 250px; 
     height: 250px;
+}
+.form{
+    border-radius: 6em;
+    background-color: white;
+    color: #c95f32;
+    font-weight: 700;
 }
 
 
