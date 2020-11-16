@@ -125,4 +125,7 @@ input, label{
     height: 5em;
     border-radius: 2em;
 }
+#productoSeleccionado{
+    font-weight: 500;
+}
 
