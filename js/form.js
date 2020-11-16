@@ -1,5 +1,6 @@
 $(document).ready(function () {
   $(".datepicker").datepicker();
+  $("select").formSelect();
 });
 
 // let prod = document
@@ -11,7 +12,7 @@ $(document).ready(function () {
 
 function fnElement(comp) {
   let value = comp.value;
-  console.log("El valor es: " + value);
+
   document.getElementById(
     "productoSeleccionado"
   ).innerText = `Elegiste: ${value}.`;

@@ -122,8 +122,8 @@ input, label{
 }
 .imgAdicional{
     width: 5em;
-    height: 5em;
-    border-radius: 2em;
+    height: 6em;
+    border-radius: 1em;
 }
 #productoSeleccionado{
     font-weight: 500;
