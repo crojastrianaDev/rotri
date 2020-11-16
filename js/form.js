@@ -9,12 +9,26 @@ $(document).ready(function () {
 //     // let value = prod.value();
 //     console.log("Ok click");
 //   });
+const porciones = document.getElementById("porciones");
+let cantPorciones = document.getElementById("cantPorciones");
 
 function fnElement(comp) {
   let value = comp.value;
+  let id = comp.id;
 
-  document.getElementById(
-    "productoSeleccionado"
-  ).innerText = `Elegiste: ${value}.`;
+  if (
+    id === "desnudaChocolate" ||
+    id == "desnudaCasera" ||
+    id === "desnudaRed"
+  ) {
+    porciones.style.display = "block";
+    document.getElementById(
+      "productoSeleccionado"
+    ).innerText = `Elegiste: ${value}.`;
+  } else {
+    porciones.style.display = "none";
+    document.getElementById(
+      "productoSeleccionado"
+    ).innerText = `Elegiste: ${value}.`;
+  }
 }
-// si es torta poner un checklist de 6 o 15 porciones

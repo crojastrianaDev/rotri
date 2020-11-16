@@ -410,6 +410,7 @@
           </div>
 
           <h6 class="center">Hecho con amor</h6>
+
           <div class="carousel carousel-slider center" id="Es">
             <div class="carousel-item" id="imgPro" target="_blank">
               <img src="img/productos/saludable.jpg" />
@@ -439,6 +440,15 @@
                 <a class="waves-effect waves-light btn-small form"> Comprar </a>
               </div>
             </div>
+
+            <div class="carousel-item" id="imgPro" target="_blank">
+              <img src="img/productos/hatsu.jpg" />
+              <h5><b> 26.000 COP</b></h5>
+              <div class="row">
+                <a class="waves-effect waves-light btn-small form"> Comprar </a>
+              </div>
+            </div>
+
             <div class="carousel-item" id="imgPro" target="_blank">
               <img src="img/productos/postres.jpg" />
               <h5><b>Postres cada 15 días $10.000 COP</b></h5>
@@ -448,7 +458,7 @@
                   target="_blank"
                   href="https://wa.me/573214544853?text=Quiero%20mi%20postre"
                 >
-                  Comprar
+                  Reservar
                 </a>
               </div>
             </div>
@@ -484,31 +494,21 @@
         <h4 class="black-text text-darken-2" id="productoSeleccionado">
           Elegiste
         </h4>
-        <div class="input-field col s12">
-          <select>
-            <option value="" disabled selected>Choose your option</option>
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-            <option value="3">Option 3</option>
-          </select>
-          <label>Materialize Select</label>
-        </div>
-        <!-- <div id="porciones">
-            <p>
-                <label>
-                  <input type="checkbox" />
-                  <span>Red</span>
-                </label>
-              </p>
-              <p>
-                <label>
-                  <input type="checkbox" checked="checked" />
-                  <span>Yellow</span>
-                </label>
-              </p>
-        </div> -->
 
         <form id="formWh">
+          <!--Solo si es torta desnuda-->
+          <div class="row">
+            <div class="input-field col s6" id="porciones">
+              <select id="cantPorciones">
+                <option value="1">6</option>
+                <option value="2">15</option>
+              </select>
+              <label class="black-text text-darken-2"
+                >Elige las porciones</label
+              >
+            </div>
+          </div>
+
           <div class="row">
             <div class="col s12">
               <h6 class="black-text text-darken-2">
@@ -621,8 +621,9 @@
                     <p>
                       <label>
                         <input name="group1" type="radio" checked />
-                        <span>Red</span> Sin addiciones
+                        <span>Red</span>
                       </label>
+                      Sin adiciones
                     </p>
                     <div class="col s6">
                       <img
