@@ -450,6 +450,22 @@
             </div>
 
             <div class="carousel-item" id="imgPro" target="_blank">
+              <img src="img/productos/cajaEsPECIAL.jpg" />
+              <h5><b>Caja Bohemia 32.000 COP</b></h5>
+              <div class="row">
+                <button
+                  class="waves-effect waves-light btn-small form modal-trigger"
+                  href="#form-modal"
+                  value="Caja Bohemia"
+                  id="pinkHatsu"
+                  onclick="fnElement(this)"
+                >
+                  Comprar
+                </button>
+              </div>
+            </div>
+
+            <div class="carousel-item" id="imgPro" target="_blank">
               <img src="img/productos/cupYGalletas.jpg" />
               <h5><b>Caja 4 Cupcakes y 4 Galletas 19.000 COP</b></h5>
               <div class="row">
@@ -467,12 +483,12 @@
 
             <div class="carousel-item" id="imgPro" target="_blank">
               <img src="img/productos/corona.jpg" />
-              <h5><b>Pink Box + Corona 26.000 COP</b></h5>
+              <h5><b>Caja rosa + Corona 26.000 COP</b></h5>
               <div class="row">
                 <button
                   class="waves-effect waves-light btn-small form modal-trigger"
                   href="#form-modal"
-                  value="Pink Box + Corona"
+                  value="Caja rosa + Corona"
                   id="pinkCorona"
                   onclick="fnElement(this)"
                 >
@@ -483,12 +499,12 @@
 
             <div class="carousel-item" id="imgPro" target="_blank">
               <img src="img/productos/buz.jpg" />
-              <h5><b>Pink Box + Budweiser 21.000 COP</b></h5>
+              <h5><b>Caja rosa + Budweiser 21.000 COP</b></h5>
               <div class="row">
                 <button
                   class="waves-effect waves-light btn-small form modal-trigger"
                   href="#form-modal"
-                  value="Pink Box + Budweiser"
+                  value="Caja Rosa + Budweiser"
                   id="pinkBud"
                   onclick="fnElement(this)"
                 >
@@ -499,12 +515,12 @@
 
             <div class="carousel-item" id="imgPro" target="_blank">
               <img src="img/productos/hatsu.jpg" />
-              <h5><b>Pink Box + Hatsu 26.000 COP</b></h5>
+              <h5><b>Caja rosa + Hatsu 26.000 COP</b></h5>
               <div class="row">
                 <button
                   class="waves-effect waves-light btn-small form modal-trigger"
                   href="#form-modal"
-                  value="Pink Box + Hatsu "
+                  value="Caja Rosa + Hatsu "
                   id="pinkHatsu"
                   onclick="fnElement(this)"
                 >
@@ -515,12 +531,12 @@
 
             <div class="carousel-item" id="imgPro" target="_blank">
               <img src="img/productos/cocaCola.jpg" />
-              <h5><b>Pink Box + Coca-Cola 21.000 COP</b></h5>
+              <h5><b>Caja Rosa + Coca-Cola 21.000 COP</b></h5>
               <div class="row">
                 <button
                   class="waves-effect waves-light btn-small form modal-trigger"
                   href="#form-modal"
-                  value="Pink Box + Coca-Cola"
+                  value="Caja Rosa + Coca-Cola"
                   id="pinkCOla"
                   onclick="fnElement(this)"
                 >
@@ -625,8 +641,8 @@
                   <!-- <input placeholder="Fecha de entrega" id="date" type="text" class="validate black-text text-darken-2"> -->
                   <input
                     type="text"
-                    class="datepicker"
                     id="date"
+                    class="datepicker"
                     placeholder="Fecha de entrega"
                     required
                   />
@@ -637,8 +653,8 @@
                 <div class="input-field col s6">
                   <input
                     id="time"
-                    type="time"
-                    class="validate black-text text-darken-2"
+                    type="text"
+                    class="validate black-text text-darken-2 timepicker"
                     placeholder="Hora de entrega"
                     required
                   />
@@ -669,7 +685,7 @@
                     class="validate black-text text-darken-2"
                     placeholder="Celular"
                   />
-                  <label for="pheneRecibe" class="black-text text-darken-2"
+                  <label for="phoneRecibe" class="black-text text-darken-2"
                     >Celular</label
                   >
                 </div>
@@ -696,104 +712,69 @@
                     required
                   />
                   <label for="message" class="black-text text-darken-2"
-                    >Mensaje para la tarjeta</label
+                    >Mensaje</label
                   >
                 </div>
               </div>
 
               <div class="container">
                 <div class="row">
-                  <div class="col s12">
-                    <p>
-                      <label>
-                        <input name="group1" type="radio" checked />
-                        <span>Red</span>
-                      </label>
-                      Sin adiciones
-                    </p>
-                    <div class="col s6">
-                      <img
-                        src="img/productos/globo.jpg"
-                        alt="Globo"
-                        class="imgAdicional"
-                      />
-                      <p>
-                        Globo con helio<br />
-                        $5.000 cop
-                      </p>
-                      <p>
-                        <label>
-                          <input name="group1" type="radio" checked />
-                          <span>Red</span>
-                        </label>
-                      </p>
-                    </div>
-                    <div class="col s6">
-                      <img
-                        src="img/productos/cajaEspcial.jpg"
-                        alt="Caja"
-                        class="imgAdicional"
-                      />
-                      <p>
-                        Caja especial <br />
-                        $5.000 cop
-                      </p>
-                      <p>
-                        <label>
-                          <input name="group1" type="radio" />
-                          <span>Yellow</span>
-                        </label>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col s12">
-                    <div class="col s6">
-                      <img
-                        src="img/productos/carta.jpg"
-                        alt="Tarjeta"
-                        class="imgAdicional"
-                      />
-                      <p>
-                        Tarjeta + sobre <br />
-                        $5.000 cop
-                      </p>
-                      <p>
-                        <label>
-                          <input class="with-gap" name="group1" type="radio" />
-                          <span>Green</span>
-                        </label>
-                      </p>
-                    </div>
-                    <div class="col s6">
-                      <img
-                        src="img/productos/ramo.jpg"
-                        alt="Ramo"
-                        class="imgAdicional"
-                      />
-                      <p>
-                        Ramo<br />
-                        $15.000 cop
-                      </p>
-                      <p>
-                        <label>
-                          <input class="with-gap" name="group1" type="radio" />
-                          <span>Green</span>
-                        </label>
-                      </p>
-                    </div>
+                  <div class="input-field col s12">
+                    <select class="icons" id="add">
+                      <option value="sin adición">Sin adición</option>
+                      <option
+                        value="Globo con helio y cinta"
+                        data-icon="img/productos/globo.jpg"
+                        class="left circle responsive-img"
+                      >
+                        Globo con helio y cinta $ 5.000
+                      </option>
+                      <option
+                        value="Caja corazón"
+                        data-icon="img/productos/cajaEspcial.jpg"
+                        class="left circle responsive-img"
+                      >
+                        Caja corazón $ 5.000
+                      </option>
+                      <option
+                        value="Tarjeta + sobre"
+                        data-icon="img/productos/carta.jpg"
+                        class="left circle responsive-img"
+                      >
+                        Tarjeta + sobre
+                      </option>
+                      <option
+                        value="Ramo"
+                        data-icon="img/productos/ramo.jpg"
+                        class="left circle responsive-img"
+                      >
+                        Ramo $ 15.000
+                      </option>
+                    </select>
+                    <label class="black-text text-darken-2"
+                      >Selecciona addición</label
+                    >
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="chip">Pedidos con 1 día de anticipación</div>
+            <div class="chip">
+              Costo del domicilio 2.000COP Perimetro urbano
             </div>
           </div>
 
           <div class="row">
             <div class="col s6 offset-s6">
               <button
-                class="btn waves-effect waves-light"
+                class="btn waves-effect waves-light tooltipped"
                 type="submit"
                 id="submitForm"
                 name="action"
+                data-delay="50"
+                data-position="top"
+                data-tooltip="Te redireccionaremos a WhatsApp"
+                onclick="M.toast({html: 'Te redireccionaremos a WhatsAp', classes: 'rounded'})"
               >
                 Enviar
                 <i class="material-icons right green-text"
@@ -804,12 +785,13 @@
           </div>
         </form>
       </div>
-      <div class="modal-footer">
+    </div>
+    <!-- <div class="modal-footer">
         <a href="#" class="modal-close waves-effect waves-green btn-flat"
           >Salir</a
         >
-      </div>
-    </div>
+      </div> -->
+    <!-- </div> -->
 
     <!--Sobre nosotros-->
     <div class="section" id="cDos">

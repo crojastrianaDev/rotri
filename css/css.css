@@ -120,15 +120,17 @@ input, label{
     font-weight: 700;
 
 }
-.imgAdicional{
+/* .imgAdicional{
     width: 5em;
     height: 6em;
     border-radius: 1em;
-}
+} */
 #productoSeleccionado{
     font-weight: 500;
 }
 #porciones{
     margin-top: 2em;
 }
-
+.circle{
+    border-radius: 10%;
+}
