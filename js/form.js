@@ -10,7 +10,7 @@ $(document).ready(function () {
 const porciones = document.getElementById("porciones");
 let cantPorciones = document.getElementById("cantPorciones");
 let boolean = false;
-let value;
+var value;
 
 function fnElement(comp) {
   value = comp.value;
@@ -75,7 +75,7 @@ formulario.addEventListener("submit", (e) => {
     let phoneR = document.querySelector("#phoneRecibe").value;
     let address = document.querySelector("#address").value;
     let msg = document.querySelector("#message").value;
-    let adiciones = document.querySelector("add").value;
+    let adiciones = document.getElementById("add").value;
     //verificamos si es torta o no
     if (boolean != true) {
       console.log(boolean + " Sin porciones ");
@@ -84,23 +84,23 @@ formulario.addEventListener("submit", (e) => {
         telefono +
         "&text=*Formulario de compra Rotri Reposteria*%0A*¿Qué producto deseas?*%0A" +
         value +
-        "*%0A*¿Cuáles es tu nombre?*%0A" +
+        "%0A*¿Cuáles es tu nombre?*%0A" +
         name +
-        "*%0A*¿Cuáles es tu número celular?*%0A" +
+        "%0A*¿Cuáles es tu número celular?*%0A" +
         phone +
-        "*%0A*¿Fecha de entrega?*%0A" +
+        "%0A*¿Fecha de entrega?*%0A" +
         data +
-        "*%0A*¿Hora de entrega?*%0A" +
+        "%0A*¿Hora de entrega?*%0A" +
         time +
-        "*%0A*¿Nombre de quien recibe?*%0A" +
+        "%0A*¿Nombre de quien recibe?*%0A" +
         nameR +
-        "*%0A*¿Celular de quien recibe?*%0A" +
+        "%0A*¿Celular de quien recibe?*%0A" +
         phoneR +
-        "*%0A*¿Dirección de entrega?*%0A" +
+        "%0A*¿Dirección de entrega?*%0A" +
         address +
-        "*%0A*¿Mensaje para la tarjeta?*%0A" +
+        "%0A*¿Mensaje para la tarjeta?*%0A" +
         msg +
-        "*%0A*¿Alguna adición?*%0A" +
+        "%0A*¿Alguna adición?*%0A" +
         adiciones +
         !"";
       if (isMobile()) {
@@ -112,38 +112,70 @@ formulario.addEventListener("submit", (e) => {
       console.log(boolean + "Con porciones");
       if (torta == 1) {
         console.log("Sin porciones" + data + time + "Porciones= " + "6");
-        console.log(
+        let mensaje =
+          "send?phone=" +
+          telefono +
+          "&text=*Formulario de compra Rotri Reposteria*%0A*¿Qué producto deseas?*%0A" +
+          value +
+          "%0A*¿Cuántas porciones*%0A" +
+          "6" +
+          "%0A*¿Cuáles es tu nombre?*%0A" +
+          name +
+          "%0A*¿Cuáles es tu número celular?*%0A" +
           phone +
-            " " +
-            nameR +
-            " " +
-            phoneR +
-            " " +
-            address +
-            " " +
-            msg +
-            " " +
-            adiciones +
-            " " +
-            name
-        );
+          "%0A*¿Fecha de entrega?*%0A" +
+          data +
+          "%0A*¿Hora de entrega?*%0A" +
+          time +
+          "%0A*¿Nombre de quien recibe?*%0A" +
+          nameR +
+          "%0A*¿Celular de quien recibe?*%0A" +
+          phoneR +
+          "%0A*¿Dirección de entrega?*%0A" +
+          address +
+          "%0A*¿Mensaje para la tarjeta?*%0A" +
+          msg +
+          "%0A*¿Alguna adición?*%0A" +
+          adiciones +
+          !"";
+        if (isMobile()) {
+          window.open(urlMobile + mensaje, "_blank");
+        } else {
+          window.open(urlDesktop + mensaje, "_blank");
+        }
       } else {
         console.log("Sin porciones" + data + time + "Porciones= " + "15");
-        // console.log(
-        //   phone +
-        //     " " +
-        //     nameR +
-        //     " " +
-        //     phoneR +
-        //     " " +
-        //     address +
-        //     " " +
-        //     msg +
-        //     " " +
-        //     adiciones +
-        //     " " +
-        //     name
-        // );
+        let mensaje =
+          "send?phone=" +
+          telefono +
+          "&text=*Formulario de compra Rotri Reposteria*%0A*¿Qué producto deseas?*%0A" +
+          value +
+          "%0A*¿Cuántas porciones*%0A" +
+          "15" +
+          "%0A*¿Cuáles es tu nombre?*%0A" +
+          name +
+          "%0A*¿Cuáles es tu número celular?*%0A" +
+          phone +
+          "%0A*¿Fecha de entrega?*%0A" +
+          data +
+          "%0A*¿Hora de entrega?*%0A" +
+          time +
+          "%0A*¿Nombre de quien recibe?*%0A" +
+          nameR +
+          "%0A*¿Celular de quien recibe?*%0A" +
+          phoneR +
+          "%0A*¿Dirección de entrega?*%0A" +
+          address +
+          "%0A*¿Mensaje para la tarjeta?*%0A" +
+          msg +
+          "%0A*¿Alguna adición?*%0A" +
+          adiciones +
+          !"";
+        if (isMobile()) {
+          window.open(urlMobile + mensaje, "_blank");
+        } else {
+          window.open(urlDesktop + mensaje, "_blank");
+        }
       }
     }
   });
