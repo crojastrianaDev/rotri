@@ -41,6 +41,7 @@ function isMobile() {
   var mobile = [
     "iphone",
     "ipad",
+    "android",
     "blackberry",
     "nokia",
     "opera mini",
