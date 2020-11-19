@@ -30,6 +30,7 @@ h1{
 h5{
     color: #fbdede;
     font-size: 23px;
+    margin-top: 0%;
 }
 h4,h6{
     color: #fbdede;
@@ -42,7 +43,7 @@ blockquote, #Modal{
     color: #c95f32;
 }
 .modal{
-    background-color: #c95f32;
+    background-color: #fbdede;
     width: min-content;   
 }
 #btnModal{
@@ -57,7 +58,7 @@ blockquote, #Modal{
     background-color: #fbdede;
 }
 B{
-    font-size: medium;
+    font-size: small;
  
 }
 #especial{
@@ -95,5 +96,41 @@ B{
     width: 250px; 
     height: 250px;
 }
+.form{
+    border-radius: 6em;
+    background-color: white;
+    color: #c95f32;
+    font-weight: 700;
+}
+#form-modal{
+    width: 80%;
+    height: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+input, label{
+    font-weight: 600;
+}
+#submitForm{
+    border-radius: 6em;
+    background-color: #c95f32;
+    color: #fbdede;
+    font-weight: 700;
 
-
+}
+/* .imgAdicional{
+    width: 5em;
+    height: 6em;
+    border-radius: 1em;
+} */
+#productoSeleccionado{
+    font-weight: 500;
+}
+#porciones{
+    margin-top: 2em;
+}
+.circle{
+    border-radius: 10%;
+}
