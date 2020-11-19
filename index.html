@@ -601,6 +601,7 @@
                     id="firstName"
                     type="text"
                     class="validate black-text text-darken-2"
+                    required
                   />
                   <label for="firstName" class="black-text text-darken-2"
                     >Nombre</label
@@ -612,6 +613,7 @@
                     type="tel"
                     class="validate black-text text-darken-2"
                     placeholder="Celular"
+                    required
                   />
                   <label for="phone" class="black-text text-darken-2"
                     >Celular</label
@@ -626,6 +628,7 @@
                     class="datepicker"
                     id="date"
                     placeholder="Fecha de entrega"
+                    required
                   />
                   <label for="date" class="black-text text-darken-2"
                     >Fecha de entrega</label
@@ -634,9 +637,10 @@
                 <div class="input-field col s6">
                   <input
                     id="time"
-                    type="tel"
+                    type="time"
                     class="validate black-text text-darken-2"
                     placeholder="Hora de entrega"
+                    required
                   />
                   <label for="time" class="black-text text-darken-2"
                     >Hora de entrega</label
@@ -677,6 +681,7 @@
                     id="address"
                     type="text"
                     class="validate black-text text-darken-2"
+                    required
                   />
                   <label for="address" class="black-text text-darken-2"
                     >Dirección</label
@@ -688,6 +693,7 @@
                     type="tel"
                     class="validate black-text text-darken-2"
                     placeholder="Mensaje para la tarjeta"
+                    required
                   />
                   <label for="message" class="black-text text-darken-2"
                     >Mensaje para la tarjeta</label
@@ -790,7 +796,9 @@
                 name="action"
               >
                 Enviar
-                <i class="material-icons right">send</i>
+                <i class="material-icons right green-text"
+                  ><img src="img/wh.png" alt="Wh" id="wh"
+                /></i>
               </button>
             </div>
           </div>
