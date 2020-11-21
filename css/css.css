@@ -103,21 +103,21 @@ B{
     font-weight: 700;
 }
 #form-modal{
-    width: 90%;
+    width: 95%;
     height: 100%;
-    margin-top: auto;
+    margin-top: 0%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: auto;
+    margin-bottom: 0%;
 }
 input, label{
     font-weight: 600;
 }
 #submitForm{
-    border-radius: 6em;
+    border-radius: 2em;
     background-color: #c95f32;
     color: #fbdede;
-    font-weight: 700;
+    font-weight: 600;
 
 }
 /* .imgAdicional{
