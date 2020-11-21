@@ -45,6 +45,7 @@ function isMobile() {
     "blackberry",
     "nokia",
     "opera mini",
+    "safari",
     "windows mobile",
     "windows phone",
     "ismobile",
