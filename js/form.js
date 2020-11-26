@@ -45,10 +45,9 @@ function isMobile() {
     "blackberry",
     "nokia",
     "opera mini",
-    "safari",
     "windows mobile",
     "windows phone",
-    "ismobile",
+    "iemobile",
   ];
   for (var i in mobile)
     if (navigator.userAgent.toLowerCase().indexOf(mobile[i].toLowerCase()) > 0)
@@ -59,7 +58,7 @@ function isMobile() {
 //Envio de formulario
 const formulario = document.querySelector("#formWh");
 const buttonSubmit = document.querySelector("#submitForm");
-const urlDesktop = "https://web.whatsapp.com/";
+const urlDesktop = 'https://web.whatsapp.com/';
 const urlMobile = "whatsapp://";
 const telefono = "573214544853";
 
