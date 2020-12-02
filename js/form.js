@@ -64,8 +64,8 @@ const telefono = "573214544853";
 
 formulario.addEventListener("submit", (e) => {
   e.preventDefault();
-  buttonSubmit.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i>';
-  buttonSubmit.disable = true;
+  // buttonSubmit.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i>';
+  buttonSubmit.disable = false;
   setTimeout(() => {
     let name = document.querySelector("#firstName").value;
     let torta = document.querySelector("#cantPorciones").value;
