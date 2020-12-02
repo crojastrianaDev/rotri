@@ -627,6 +627,19 @@
                   >
                 </div>
                 <div class="input-field col s6">
+                  <!-- <input placeholder="Fecha de entrega" id="date" type="text" class="validate black-text text-darken-2"> -->
+                  <input
+                    type="text"
+                    id="date"
+                    class="datepicker validate"
+                    placeholder="Fecha de entrega"
+                    required
+                  />
+                  <label for="date" class="black-text text-darken-2"
+                    >Fecha de entrega</label
+                  >
+                </div>
+                <!-- <div class="input-field col s6">
                   <input
                     id="phone"
                     type="tel"
@@ -637,22 +650,9 @@
                   <label for="phone" class="black-text text-darken-2"
                     >Celular</label
                   >
-                </div>
+                </div> -->
               </div>
               <div class="row">
-                <div class="input-field col s6">
-                  <!-- <input placeholder="Fecha de entrega" id="date" type="text" class="validate black-text text-darken-2"> -->
-                  <input
-                    type="text"
-                    id="date"
-                    class="datepicker"
-                    placeholder="Fecha de entrega"
-                    required
-                  />
-                  <label for="date" class="black-text text-darken-2"
-                    >Fecha de entrega</label
-                  >
-                </div>
                 <div class="input-field col s6">
                   <input
                     id="time"
@@ -707,14 +707,15 @@
                   >
                 </div>
                 <div class="input-field col s12">
-                  <!-- type="text" -->
-                  <textarea
+                  <!-- type="text" materialize-textarea -->
+                  <input
                     id="message"
-                    class="validate black-text text-darken-2 materialize-textarea"
+                    type="text"
+                    class="validate black-text text-darken-2"
                     placeholder="Mensaje para la tarjeta"
                     required
-                  >
-                  </textarea>
+                  />
+
                   <label for="message" class="black-text text-darken-2"
                     >Mensaje Para la Tarjeta</label
                   >
