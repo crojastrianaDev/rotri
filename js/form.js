@@ -48,7 +48,7 @@ function isMobile() {
     "safari",
     "windows mobile",
     "windows phone",
-    "ismobile",
+    "iemobile",
   ];
   for (var i in mobile)
     if (navigator.userAgent.toLowerCase().indexOf(mobile[i].toLowerCase()) > 0)
