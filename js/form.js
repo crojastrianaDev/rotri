@@ -69,7 +69,7 @@ formulario.addEventListener("submit", (e) => {
   setTimeout(() => {
     let name = document.querySelector("#firstName").value;
     let torta = document.querySelector("#cantPorciones").value;
-    let phone = document.querySelector("#phone").value;
+    // let phone = document.querySelector("#phone").value;
     let data = document.querySelector("#date").value;
     let time = document.querySelector("#time").value;
     let nameR = document.querySelector("#nameRecibe").value;
@@ -87,8 +87,8 @@ formulario.addEventListener("submit", (e) => {
         value +
         "%0A*¿Cuáles es tu nombre?*%0A" +
         name +
-        "%0A*¿Cuáles es tu número celular?*%0A" +
-        phone +
+        // "%0A*¿Cuáles es tu número celular?*%0A" +
+        // phone +
         "%0A*¿Fecha de entrega?*%0A" +
         data +
         "%0A*¿Hora de entrega?*%0A" +
@@ -103,7 +103,7 @@ formulario.addEventListener("submit", (e) => {
         msg +
         "%0A*¿Alguna adición?*%0A" +
         adiciones +
-        !"";
+        "";
       if (isMobile()) {
         window.open(urlMobile + mensaje, "_blank");
       } else {
@@ -122,8 +122,8 @@ formulario.addEventListener("submit", (e) => {
           "6" +
           "%0A*¿Cuáles es tu nombre?*%0A" +
           name +
-          "%0A*¿Cuáles es tu número celular?*%0A" +
-          phone +
+          // "%0A*¿Cuáles es tu número celular?*%0A" +
+          // phone +
           "%0A*¿Fecha de entrega?*%0A" +
           data +
           "%0A*¿Hora de entrega?*%0A" +
@@ -138,7 +138,7 @@ formulario.addEventListener("submit", (e) => {
           msg +
           "%0A*¿Alguna adición?*%0A" +
           adiciones +
-          !"";
+          "";
         if (isMobile()) {
           window.open(urlMobile + mensaje, "_blank");
         } else {
@@ -155,8 +155,8 @@ formulario.addEventListener("submit", (e) => {
           "15" +
           "%0A*¿Cuáles es tu nombre?*%0A" +
           name +
-          "%0A*¿Cuáles es tu número celular?*%0A" +
-          phone +
+          // "%0A*¿Cuáles es tu número celular?*%0A" +
+          // phone +
           "%0A*¿Fecha de entrega?*%0A" +
           data +
           "%0A*¿Hora de entrega?*%0A" +
@@ -171,7 +171,7 @@ formulario.addEventListener("submit", (e) => {
           msg +
           "%0A*¿Alguna adición?*%0A" +
           adiciones +
-          !"";
+          "";
         if (isMobile()) {
           window.open(urlMobile + mensaje, "_blank");
         } else {
