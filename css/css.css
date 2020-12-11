@@ -96,6 +96,10 @@ B{
     width: 250px; 
     height: 250px;
 }
+#imgTortaEspecial{
+    width: 230px;
+    height: 230px;
+}
 .form{
     border-radius: 6em;
     background-color: white;
