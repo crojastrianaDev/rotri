@@ -1,141 +1,159 @@
-nav{
-    margin: auto;
-    background-color: #c95f32;
-    padding: 0 20px 20px 20px;
-    box-shadow: inset;
-    
-  }
-footer
-{
-    margin: 0 auto;
-    background-color: #c95f32;
-    padding: 0 20px 20px 20px;
-    box-shadow: inset;
-
+nav {
+  margin: auto;
+  background-color: #c95f32;
+  padding: 0 20px 20px 20px;
+  box-shadow: inset;
 }
- a, h2{
-    color: #c95f32;
+footer {
+  margin: 0 auto;
+  background-color: #c95f32;
+  padding: 0 20px 20px 20px;
+  box-shadow: inset;
 }
-p{
-    color: #c95f32;
-    font-size: 14px; 
+a,
+h2 {
+  color: #c95f32;
 }
-span{
-    color: #fbdede;
+p {
+  color: #c95f32;
+  font-size: 14px;
 }
-h1{
-    color: #c95f32;
-    font-size: 36px;
+span {
+  color: #fbdede;
 }
-h5{
-    color: #fbdede;
-    font-size: 23px;
-    margin-top: 0%;
+h1 {
+  color: #c95f32;
+  font-size: 36px;
 }
-h4,h6{
-    color: #fbdede;
-    font-size: 20px;
+h5 {
+  color: #fbdede;
+  font-size: 23px;
+  margin-top: 0%;
 }
-.sidenav{
-   width: 200px;
+h4,
+h6 {
+  color: #fbdede;
+  font-size: 20px;
 }
-blockquote, #Modal{
-    color: #c95f32;
+.sidenav {
+  width: 200px;
 }
-.modal{
-    background-color: #fbdede;
-    width: min-content;   
+blockquote,
+#Modal {
+  color: #c95f32;
 }
-#btnModal{
-    background-color: #fbdede;
-    color: #c95f32;
-    font-size: 15px;
+.modal {
+  background-color: #fbdede;
+  width: min-content;
 }
-#drop{
-    color: #c95f32;
+#btnModal {
+  background-color: #fbdede;
+  color: #c95f32;
+  font-size: 15px;
 }
-.dropdown{
-    background-color: #fbdede;
+#drop {
+  color: #c95f32;
 }
-B{
-    font-size: small;
- 
+.dropdown {
+  background-color: #fbdede;
 }
-#especial{
-    color: #c95f32;
+B {
+  font-size: small;
 }
-#cUno, .navMov{
-    background-color: #c95f32;
+#especial {
+  color: #c95f32;
 }
-#cDos{
-    background-color: #fbdede;
+#cUno,
+.navMov {
+  background-color: #c95f32;
 }
-#navEscritorio{
-    color: #c95f32;
-    height: 63px;
+#cDos {
+  background-color: #fbdede;
 }
-#img404{
-    color: #fbdede; 
-    font-size: x-large;
+#navEscritorio {
+  color: #c95f32;
+  height: 63px;
 }
-#imgModalPromo{
-    width: 250px; 
-    height: 400px;
+#img404 {
+  color: #fbdede;
+  font-size: x-large;
 }
-#logoNav{
-    width:65px;
-    height:65px; 
-    background-color: #fbdede;
+#imgModalPromo {
+  width: 250px;
+  height: 400px;
 }
-#logoMov{
-    width:48px;
-    height:48px; 
-    background-color: #fbdede;
+#logoNav {
+  width: 65px;
+  height: 65px;
+  background-color: #fbdede;
 }
-#imgPro{
-    width: 250px; 
-    height: 250px;
+#logoMov {
+  width: 48px;
+  height: 48px;
+  background-color: #fbdede;
 }
-#imgTortaEspecial{
-    width: 230px;
-    height: 230px;
+#imgPro {
+  width: 250px;
+  height: 250px;
 }
-.form{
-    border-radius: 6em;
-    background-color: white;
-    color: #c95f32;
-    font-weight: 700;
+#imgTortaEspecial {
+  width: 230px;
+  height: 230px;
 }
-#form-modal{
-    width: auto;
-    height: auto;
-    margin-top: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0%;
-    border-radius: 1em;
+.form {
+  border-radius: 6em;
+  background-color: white;
+  color: #c95f32;
+  font-weight: 700;
 }
-input, label{
-    font-weight: 600;
+#form-modal {
+  width: auto;
+  height: auto;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%;
+  border-radius: 1em;
 }
-#submitForm{
-    border-radius: 2em;
-    background-color: #c95f32;
-    color: #fbdede;
-    font-weight: 600;
-
+input,
+label {
+  font-weight: 600;
+}
+#submitForm {
+  border-radius: 2em;
+  background-color: #c95f32;
+  color: #fbdede;
+  font-weight: 600;
 }
 /* .imgAdicional{
     width: 5em;
     height: 6em;
     border-radius: 1em;
 } */
-#productoSeleccionado{
-    font-weight: 500;
+#productoSeleccionado {
+  font-weight: 500;
 }
-#porciones{
-    margin-top: 2em;
+#porciones {
+  margin-top: 2em;
 }
-.circle{
-    border-radius: 10%;
+.circle {
+  border-radius: 10%;
 }
+h6 {
+  margin-bottom: 1em;
+  font-weight: 900;
+}
+h5 {
+  font-weight: 900;
+}
+#click {
+  font-size: large;
+  font-weight: 900;
+}
+p {
+  font-size: medium;
+  font-weight: 700;
+}
+/* #add {
+  margin-bottom: 1em;
+} */
