@@ -215,12 +215,7 @@
         <div class="container" id="Pro">
           <div class="row">
             <div class="center">
-              <h4 id="click">
-                
-                  Click en comprar
-              
-                
-              </h4>
+              <h4 id="click">Click en comprar</h4>
             </div>
           </div>
           <div class="carousel carousel-slider center" id="productosN">
@@ -277,7 +272,39 @@
                 </button>
               </div>
             </div>
+            <div class="carousel-item" id="imgPro" target="_blank">
+              <img src="img/productos/crepes.jpg" alt="Crepes" />
+              <h5><b>Caja Crepes $14.000</b></h5>
+              <div class="row">
+                <!--modal-trigger href="#form-modal" -->
+                <button
+                  class="waves-effect waves-light btn-small form modal-trigger"
+                  href="#form-modal"
+                  value="Crepes"
+                  id="crepes"
+                  onclick="fnElement(this)"
+                >
+                  Comprar
+                </button>
+              </div>
+            </div>
 
+            <div class="carousel-item" id="imgPro" target="_blank">
+              <img src="img/productos/pancakes.jpg" alt="Pancakes" />
+              <h5><b>Caja Pancakes $14.000</b></h5>
+              <div class="row">
+                <!--modal-trigger href="#form-modal" -->
+                <button
+                  class="waves-effect waves-light btn-small form modal-trigger"
+                  href="#form-modal"
+                  value="Pancakes"
+                  id="Pancakes"
+                  onclick="fnElement(this)"
+                >
+                  Comprar
+                </button>
+              </div>
+            </div>
             <div class="carousel-item" id="imgPro" target="_blank">
               <img src="img/productos/caja6.jpg" alt="Cupcake" />
               <h5><b>Caja 6 Cupcakes $18.000</b></h5>
@@ -342,6 +369,26 @@
                   href="#form-modal"
                   value="10 Galletas"
                   id="diezGalletas"
+                  onclick="fnElement(this)"
+                >
+                  Comprar
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item" id="imgPro" target="_blank">
+              <img
+                src="img/productos/tortaChocolate.jpg"
+                alt="Torta Chocolatosa"
+              />
+              <h5>
+                <b>Torta Chocolatosa de 15 porciones $70.000</b>
+              </h5>
+              <div class="row">
+                <button
+                  class="waves-effect waves-light btn-small form modal-trigger"
+                  href="#form-modal"
+                  value="Torta Chocolatosa"
+                  id="tortaCholatosa"
                   onclick="fnElement(this)"
                 >
                   Comprar
@@ -544,13 +591,29 @@
             </div>
 
             <div class="carousel-item" id="imgPro" target="_blank">
+              <img src="img/productos/cupkChoco.jpg" alt="Cupcakes Chocolate" />
+              <h5><b>Caja 4 cupcakes de chocolate $16.000</b></h5>
+              <div class="row">
+                <button
+                  class="waves-effect waves-light btn-small form modal-trigger"
+                  href="#form-modal"
+                  value="Caja 4 cupcakes de chocolate"
+                  id="chupChoco"
+                  onclick="fnElement(this)"
+                >
+                  Comprar
+                </button>
+              </div>
+            </div>
+
+            <div class="carousel-item" id="imgPro" target="_blank">
               <img src="img/productos/buz.jpg" alt="Especial" />
               <h5><b>Caja rosa + Budweiser $21.000</b></h5>
               <div class="row">
                 <button
                   class="waves-effect waves-light btn-small form modal-trigger"
                   href="#form-modal"
-                  value="Caja Rosa + Budweiser"
+                  value="Cupcakes Chocolate"
                   id="pinkBud"
                   onclick="fnElement(this)"
                 >
@@ -596,13 +659,31 @@
 
             <div class="carousel-item" id="imgPro" target="_blank">
               <img src="img/productos/tortaPersonal.jpg" alt="Especial" />
-              <h5><b>Torta personal con relleno $18.000</b></h5>
+              <h5><b>Torta personal con relleno $20.000</b></h5>
               <div class="row">
                 <button
                   class="waves-effect waves-light btn-small form modal-trigger"
                   href="#form-modal"
                   value="Torta personal con relleno"
                   id="tortaEsp"
+                  onclick="fnElement(this)"
+                >
+                  Comprar
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item" id="imgPro" target="_blank">
+              <img
+                src="img/productos/tortaFrutosRojos.jpg"
+                alt="Torta Frutos Rojos"
+              />
+              <h5><b>Torta Frutos Rojos 1/2Lb $35.000 1Lb $62.000</b></h5>
+              <div class="row">
+                <button
+                  class="waves-effect waves-light btn-small form modal-trigger"
+                  href="#form-modal"
+                  value="Torta Frutos Rojos"
+                  id="tortaFrutosRojos"
                   onclick="fnElement(this)"
                 >
                   Comprar
@@ -644,11 +725,11 @@
             </div>
             <div class="carousel-item" id="imgTortaEspecial">
               <img
-                src="img/productos/tortaEspecial.jpg"
+                src="img/productos/tortaPersonalizada.jpg"
                 alt="Trota Especial"
                 title="Torta especial"
               />
-              <h5><b>Cupcakes Eventos Especiales</b></h5>
+              <h5><b>Torta personalizada 1/2Lb $50.000 1Lb $100.000</b></h5>
               <div class="row">
                 <a
                   class="waves-effect waves-light btn-small form"
@@ -840,14 +921,28 @@
                         data-icon="img/productos/carta.jpg"
                         class="left circle responsive-img"
                       >
-                        Tarjeta + sobre $5.000
+                        Tarjeta + sobre $3.000
                       </option>
                       <option
                         value="Ramo"
                         data-icon="img/productos/ramo.jpg"
                         class="left circle responsive-img"
                       >
-                        Ramo $15.000
+                        Ramo Rosas o Girasoles $18.000
+                      </option>
+                      <option
+                        value="Vela"
+                        data-icon="img/productos/vela.jpg"
+                        class="left circle responsive-img"
+                      >
+                        Vela $3.000
+                      </option>
+                      <option
+                        value="Letrero"
+                        data-icon="img/productos/letrero.jpg"
+                        class="left circle responsive-img"
+                      >
+                        Letrero $5.000
                       </option>
                     </select>
                     <label class="black-text text-darken-2"
