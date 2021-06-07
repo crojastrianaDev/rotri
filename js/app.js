@@ -4,7 +4,7 @@
     $(".parallax").parallax();
     $(".tabs").tabs();
     $(".materialboxed").materialbox();
-    $(".dropdown-trigger").dropdown();
+    //$(".dropdown-trigger").dropdown();
     $(".modal").modal();
     $(".sidenav").open();
   });
@@ -28,3 +28,7 @@ $(document).ready(function () {
 //   var instance = M.Modal.init(Modalelem);
 //   instance.open();
 // });
+document.addEventListener("DOMContentLoaded", function () {
+  var elems = document.querySelectorAll(".dropdown-trigger");
+  var instances = M.Dropdown.init(elems, options);
+});

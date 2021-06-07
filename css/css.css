@@ -10,22 +10,23 @@ footer {
   padding: 0 20px 20px 20px;
   box-shadow: inset;
 }
-a,
-h2 {
+a {
   color: #c95f32;
 }
 p {
   color: #c95f32;
   font-size: 14px;
 }
-span {
-  color: #fbdede;
+span,
+h3 {
+  color: #c95f32;
 }
 h1 {
   color: #c95f32;
   font-size: 36px;
 }
-h5 {
+h5,
+h2 {
   color: #fbdede;
   font-size: 23px;
   margin-top: 0%;
@@ -157,3 +158,10 @@ p {
 /* #add {
   margin-bottom: 1em;
 } */
+.card-image {
+  background-color: #fbdede;
+  text-align: center;
+}
+.li-floating {
+  background-color: #fbdede;
+}
