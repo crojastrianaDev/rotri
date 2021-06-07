@@ -45,6 +45,7 @@ function isMobile() {
     "blackberry",
     "nokia",
     "opera mini",
+    "safari",
     "windows mobile",
     "windows phone",
     "iemobile",
@@ -58,7 +59,7 @@ function isMobile() {
 //Envio de formulario
 const formulario = document.querySelector("#formWh");
 const buttonSubmit = document.querySelector("#submitForm");
-const urlDesktop = 'https://web.whatsapp.com/';
+const urlDesktop = "https://web.whatsapp.com/";
 const urlMobile = "whatsapp://";
 const telefono = "573214544853";
 
@@ -83,25 +84,23 @@ formulario.addEventListener("submit", (e) => {
       let mensaje =
         "send?phone=" +
         telefono +
-        "&text=*Formulario de compra Rotri Reposteria*%0A*¿Qué producto deseas?*%0A" +
+        "&text=*¿Qué producto deseas?*%0A" +
         value +
-        "%0A*¿Cuáles es tu nombre?*%0A" +
+        "%0A*¿Tu nombre?*%0A" +
         name +
-        // "%0A*¿Cuáles es tu número celular?*%0A" +
-        // phone +
-        "%0A*¿Fecha de entrega?*%0A" +
+        "%0A*¿Fecha?*%0A" +
         data +
-        "%0A*¿Hora de entrega?*%0A" +
+        "%0A*¿Hora?*%0A" +
         time +
-        "%0A*¿Nombre de quien recibe?*%0A" +
+        "%0A*¿Quién recibe?*%0A" +
         nameR +
-        "%0A*¿Celular de quien recibe?*%0A" +
+        "%0A*¿Celular?*%0A" +
         phoneR +
-        "%0A*¿Dirección de entrega?*%0A" +
+        "%0A*¿Dirección?*%0A" +
         address +
-        "%0A*¿Mensaje para la tarjeta?*%0A" +
+        "%0A*¿Mensaje?*%0A" +
         msg +
-        "%0A*¿Alguna adición?*%0A" +
+        "%0A*¿Adición?*%0A" +
         adiciones +
         "";
       if (isMobile()) {
@@ -116,27 +115,25 @@ formulario.addEventListener("submit", (e) => {
         let mensaje =
           "send?phone=" +
           telefono +
-          "&text=*Formulario de compra Rotri Reposteria*%0A*¿Qué producto deseas?*%0A" +
+          "&text=*¿Qué producto deseas?*%0A" +
           value +
           "%0A*¿Cuántas porciones*%0A" +
           "6" +
-          "%0A*¿Cuáles es tu nombre?*%0A" +
+          "%0A*¿Tu nombre?*%0A" +
           name +
-          // "%0A*¿Cuáles es tu número celular?*%0A" +
-          // phone +
-          "%0A*¿Fecha de entrega?*%0A" +
+          "%0A*¿Fecha?*%0A" +
           data +
-          "%0A*¿Hora de entrega?*%0A" +
+          "%0A*¿Hora?*%0A" +
           time +
-          "%0A*¿Nombre de quien recibe?*%0A" +
+          "%0A*¿Quién recibe?*%0A" +
           nameR +
-          "%0A*¿Celular de quien recibe?*%0A" +
+          "%0A*¿Celular?*%0A" +
           phoneR +
-          "%0A*¿Dirección de entrega?*%0A" +
+          "%0A*¿Dirección?*%0A" +
           address +
-          "%0A*¿Mensaje para la tarjeta?*%0A" +
+          "%0A*¿Mensaje?*%0A" +
           msg +
-          "%0A*¿Alguna adición?*%0A" +
+          "%0A*¿Adición?*%0A" +
           adiciones +
           "";
         if (isMobile()) {
