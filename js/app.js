@@ -4,7 +4,7 @@
     $(".parallax").parallax();
     $(".tabs").tabs();
     $(".materialboxed").materialbox();
-    $(".dropdown-trigger").dropdown();
+    //$(".dropdown-trigger").dropdown();
     $(".modal").modal();
     $(".sidenav").open();
   });
@@ -22,9 +22,17 @@ $(document).ready(function () {
   });
 });
 
-// MODAL AL CARGAR
-// document.addEventListener("DOMContentLoaded", function () {
-//   var Modalelem = document.querySelector(".modal");
-//   var instance = M.Modal.init(Modalelem);
-//   instance.open();
-// });
+//MODAL AL CARGAR
+/*document.addEventListener("DOMContentLoaded", function () {
+  var Modalelem = document.querySelector("#Promotion");
+  var instance = M.Modal.init(Modalelem);
+  instance.open();
+});*/
+document.addEventListener("DOMContentLoaded", function () {
+  var elems = document.querySelectorAll(".dropdown-trigger");
+  var instances = M.Dropdown.init(elems, options);
+});
+//Promotion
+/*$(document).ready(function () {
+  $("#Promotion").modal("toggle");
+});*/
